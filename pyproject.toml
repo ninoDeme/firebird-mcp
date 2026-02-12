@@ -1,8 +1,11 @@
 [project]
 name = "firebirdmcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP server for Firebird database"
 readme = "README.md"
+authors = [
+    { name = "Ricardo S. Demeterko", email = "mail@ninodeme.com" }
+]
 requires-python = ">=3.11"
 dependencies = [
     "firebird-driver>=2.0.2",
@@ -13,4 +16,6 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pyinstaller>=6.18.0",
+    "pyright>=1.1.408",
+    "ruff>=0.15.0",
 ]
