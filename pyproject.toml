@@ -1,0 +1,16 @@
+[project]
+name = "firebirdmcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "firebird-driver>=2.0.2",
+    "mcp>=1.26.0",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.18.0",
+]
